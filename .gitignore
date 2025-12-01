@@ -1,0 +1,16 @@
+# Ignore compiled class files
+*.class
+
+# If using build tools (Maven / Gradle), ignore build output
+/bin/
+/target/
+/out/
+
+# IDE-specific files (if you use IntelliJ, Eclipse, VS Code, etc.)
+.idea/
+.vscode/
+*.iml
+
+# OS or system files
+.DS_Store
+thumbs.db
