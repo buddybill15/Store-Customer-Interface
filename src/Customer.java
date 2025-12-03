@@ -53,34 +53,6 @@ public class Customer{
     }
 
     public String toString(){
-        return "age: " + age + "First name: " + firstName + "Middle initial : " + midInit + "Last name: " + lastName;
-    }
-
-    public void Change(){
-        Scanner k = new Scanner(System.in);
-        int ans = k.nextInt();
-        System.out.println("What would you like to change?\n1. First Name\n2.Middle Initial\n3. Middle Initial ");
-        switch(ans){
-            case(1):
-            System.out.print("What will be the new First Name?");
-            String newFirst = k.next();
-
-            setFirstName(newFirst);
-            break;
-
-            case(2):
-            System.out.print("What will be the new First Name?");
-            char newInitial = k.next().charAt(0);
-
-            setMidInit(newInitial);
-            break;
-
-            case(3):
-            System.out.print("What will be the new First Name?");
-            String newLast = k.next();
-
-            setLastName(newLast);
-            break;
-        }
+        return "age: " + age + " First name: " + firstName + " Middle initial : " + midInit + " Last name: " + lastName;
     }
 }
