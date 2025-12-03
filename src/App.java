@@ -1,6 +1,7 @@
 import java.util.Scanner;
+import java.io.IOException;
 
-public class App extends Customer {
+public class App implements Interface{
     public static void main(String[] args) throws Exception {
 
         Scanner k = new Scanner(System.in);
@@ -9,9 +10,15 @@ public class App extends Customer {
 
         int ans = k.nextInt();
 
+        Customer John = new Customer(25, "John", 'R', "Brown");
+
+        Customer c = John;
+
         switch(ans){
             case(1):
             
+            case(2):
+            c.Change();
 
         }
 
